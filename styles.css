@@ -1,0 +1,24 @@
+.flex-container{
+    display: flex;
+    height: 400px;
+    flex-wrap: nowrap;
+    /*align-content: flex-end;*/
+    /*align-items: baseline;*/
+    /*justify-content: space-between;*/
+    /*flex-flow: row wrap;*/
+    background-color: burlywood;
+    padding: 10px;
+    border: 2px solid black;
+
+}
+
+.flex-container div{
+    background-color: gainsboro;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    border: 2px solid black;
+    
+}
